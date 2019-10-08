@@ -1,0 +1,116 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* max-width: 1920px; */
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+.promo {
+    background-image: url(./images/1.jpg);
+}
+
+.promo-name {
+    margin-top:200px;
+    margin-bottom: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    font-size: 47px;
+    color: #47525E;
+}
+
+.promo-photo {
+    background-image: url(./images/me.jpg);
+    background-size: cover;
+    width: 360px;
+    height: 360px;
+    border-radius: 200px;
+    border: 10px solid #fff;
+    margin: 0px auto 200px auto;
+}
+
+.history {
+    padding: 0px;
+    margin: 0px;
+}
+
+.history .columns {
+    margin: 0px;
+}
+
+.history-edu {
+    background-image: url(./images/waves.png);
+}
+
+.history-pub {
+    background-image: url(./images/tea.png);
+}
+
+.history-hack {
+    background-image: url(./images/building.png);
+}
+
+.text {
+    text-align: center;
+    font-size: 26px;
+    color: #fff;
+    line-height: 2;
+}
+
+.history .column {
+    height: 700px;
+    padding: 200px 50px 0 50px!important;
+    background-size: cover;
+}
+
+.exp {
+    background-image: url(./images/exp.png);
+}
+
+.exp-title {
+    margin-top: 100px;
+    margin-bottom: 150px!important;
+}
+
+.exp-blocks {
+    margin-bottom: 150px!important;
+}
+
+.exp-blocks .column {
+    padding: 30px;
+}
+
+@media screen and (max-width: 400px) {
+    .promo-name {
+        font-size: 30px;
+    }
+
+    .promo-photo {
+        width: 300px;
+        height: 300px;
+    }
+
+    .history .column {
+        height: 400px;
+        padding: 0px 10px 0 10px!important;
+        display: flex;
+        align-items: center;
+    }
+
+    .text {
+        line-height: normal;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .exp-title {
+        margin-top: 15px;
+        margin-bottom: 30px!important;
+    }
+    .exp-blocks .column {
+        padding: 10px;
+    }
+}
+
